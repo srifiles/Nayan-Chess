@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let activePieceConfig = null;
   let currentPathIndex = 0;
   let animationTimeout = null;
-  let animSpeedMultiplier = 1.5; // Default "Slow" speed factor (time in seconds)
+  let animSpeedMultiplier = 1.2; // Default "Medium" speed factor (time in seconds)
 
   // --- Dynamic Chessboard Generation ---
   function generateBoard() {
@@ -342,7 +342,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     path.setAttribute('class', 'movement-path');
     path.setAttribute('stroke', strokeColor);
-    path.setAttribute('marker-end', `url(#arrowhead-${pieceType})`);
 
     let dAttr = '';
     

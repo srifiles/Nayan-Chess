@@ -204,27 +204,6 @@
             </div>
             <!-- Overlay SVG for drawing arrows -->
             <svg class="arrow-overlay" id="arrow-overlay" viewBox="0 0 100 100" preserveAspectRatio="none">
-              <!-- Custom markers for arrow heads -->
-              <defs>
-                <marker id="arrowhead-pawn" markerWidth="6" markerHeight="6" refX="4" refY="3" orient="auto">
-                  <path d="M0,0 L0,6 L6,3 Z" fill="#F5A623" />
-                </marker>
-                <marker id="arrowhead-rook" markerWidth="6" markerHeight="6" refX="4" refY="3" orient="auto">
-                  <path d="M0,0 L0,6 L6,3 Z" fill="#1A56C4" />
-                </marker>
-                <marker id="arrowhead-knight" markerWidth="6" markerHeight="6" refX="4" refY="3" orient="auto">
-                  <path d="M0,0 L0,6 L6,3 Z" fill="#0E9A86" />
-                </marker>
-                <marker id="arrowhead-bishop" markerWidth="6" markerHeight="6" refX="4" refY="3" orient="auto">
-                  <path d="M0,0 L0,6 L6,3 Z" fill="#7ED321" />
-                </marker>
-                <marker id="arrowhead-queen" markerWidth="6" markerHeight="6" refX="4" refY="3" orient="auto">
-                  <path d="M0,0 L0,6 L6,3 Z" fill="#D0021B" />
-                </marker>
-                <marker id="arrowhead-king" markerWidth="6" markerHeight="6" refX="4" refY="3" orient="auto">
-                  <path d="M0,0 L0,6 L6,3 Z" fill="#9013FE" />
-                </marker>
-              </defs>
               <!-- Paths will be injected dynamically -->
             </svg>
           </div>
@@ -245,8 +224,9 @@
           <div class="controls-card">
             <span class="control-label">Animation Speed:</span>
             <div class="speed-selector">
-              <button class="btn-speed active" data-speed="1.5">🐢 Slow</button>
-              <button class="btn-speed" data-speed="0.8">🏃 Normal</button>
+              <button class="btn-speed" data-speed="2.0">🐢 Slow</button>
+              <button class="btn-speed active" data-speed="1.2">🏃 Medium</button>
+              <button class="btn-speed" data-speed="0.6">⚡ Fast</button>
             </div>
           </div>
 
